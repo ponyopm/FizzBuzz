@@ -1,9 +1,9 @@
 /**
  * Solve the FizzBuzz challenge.
  */
-class FizzBuzz {
+public class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main(int args) {
 
         int i = 1;
         while (i < 100) {
@@ -15,7 +15,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
